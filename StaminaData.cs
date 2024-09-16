@@ -18,6 +18,7 @@ namespace ECS.Modules.Exerussus.Stamina
             public float Amount;
         }
         
+        /// <summary> Отключает регенерацию стамины </summary>
         public struct StaminaRegenerationStopMark : IEcsComponent
         {
             
