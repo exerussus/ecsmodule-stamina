@@ -8,11 +8,6 @@ namespace ECS.Modules.Exerussus.Stamina
     {
         protected override float TickSystemDelay { get; } = 0.5f;
 
-        protected override void SetInitSystems(IEcsSystems initSystems)
-        {
-            initSystems.Add(new StaminaChangerSystem());
-        }
-
         protected override void SetTickUpdateSystems(IEcsSystems tickUpdateSystems)
         {
             tickUpdateSystems.Add(new StaminaRegenerationSystem());

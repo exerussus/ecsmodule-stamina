@@ -1,6 +1,6 @@
 {
   "name": "com.exerussus.ecsmodule.stamina",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "displayName": "Stamina",
   "description": "Модуль для 1EasyEcs",
   "unity": "2020.3",
